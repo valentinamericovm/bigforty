@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vale's Big Forty, Medellín Edition. Birthday Week, 18 February 2027.">
+  <title>Vale's Big Forty | Medellín Edition</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">
+      <span>Vale's Big Forty</span>
+      <small>Medellín Edition</small>
+    </a>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home" data-en="Home" data-it="Home">Home</a>
+      <a href="#about" data-en="About Vale" data-it="Chi è Vale">About Vale</a>
+      <a href="#colombia" data-en="Colombia" data-it="Colombia">Colombia</a>
+      <a href="#explore" data-en="Explore" data-it="Esplora">Explore</a>
+      <a href="#week" data-en="Birthday Week" data-it="Birthday Week">Birthday Week</a>
+      <a href="#travel" data-en="Travel Guide" data-it="Guida di viaggio">Travel Guide</a>
+      <a href="#stay" data-en="Where to Stay" data-it="Dove alloggiare">Where to Stay</a>
+      <a href="#gallery" data-en="Gallery" data-it="Galleria">Gallery</a>
+      <a href="#faq" data-en="FAQ" data-it="FAQ">FAQ</a>
+      <a href="#rsvp" data-en="RSVP" data-it="RSVP">RSVP</a>
+    </nav>
+    <div class="language-switch" aria-label="Language selector">
+      <button class="lang active" data-lang="en">EN</button>
+      <span>|</span>
+      <button class="lang" data-lang="it">IT</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">18th February 2027</p>
+        <h1>Vale's<br><strong>Big Forty</strong></h1>
+        <p class="script">Medellín Edition</p>
+        <p class="tagline" data-en="Different countries. Different stories. Different friendships. One unforgettable celebration."
+          data-it="Paesi diversi. Storie diverse. Amicizie diverse. Una celebrazione indimenticabile.">
+          Different countries. Different stories. Different friendships. One unforgettable celebration.
+        </p>
+        <a class="button primary" href="#rsvp" data-en="I'm coming!" data-it="Ci sarò!">I'm coming!</a>
+      </div>
+    </section>
+
+    <section class="countdown-section">
+      <p class="section-kicker" data-en="The countdown" data-it="Il conto alla rovescia">The countdown</p>
+      <div id="countdown" class="countdown" aria-live="polite">
+        <div><strong id="days">0</strong><span data-en="Days" data-it="Giorni">Days</span></div>
+        <div><strong id="hours">0</strong><span data-en="Hours" data-it="Ore">Hours</span></div>
+        <div><strong id="minutes">0</strong><span data-en="Minutes" data-it="Minuti">Minutes</span></div>
+        <div><strong id="seconds">0</strong><span data-en="Seconds" data-it="Secondi">Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="quick-nav" aria-label="Quick navigation">
+      <p class="section-kicker" data-en="Explore the site" data-it="Esplora il sito">Explore the site</p>
+      <div class="quick-nav-grid">
+        <a href="#about"><span>♥</span><strong data-en="About Vale" data-it="Chi è Vale">About Vale</strong><small data-en="Why this birthday matters" data-it="Perché questo compleanno conta">Why this birthday matters</small></a>
+        <a href="#colombia"><span>✦</span><strong>Colombia</strong><small data-en="Context, culture and safety" data-it="Contesto, cultura e sicurezza">Context, culture and safety</small></a>
+        <a href="#explore"><span>⌖</span><strong data-en="Explore" data-it="Esplora">Explore</strong><small data-en="Things to do in and around Medellín" data-it="Cosa fare a Medellín e dintorni">Things to do in and around Medellín</small></a>
+        <a href="#week"><span>◷</span><strong>Birthday Week</strong><small data-en="The evolving schedule" data-it="Il programma in evoluzione">The evolving schedule</small></a>
+        <a href="#travel"><span>✈</span><strong data-en="Travel Guide" data-it="Guida di viaggio">Travel Guide</strong><small data-en="Flights, money, transport and packing" data-it="Voli, denaro, trasporti e valigia">Flights, money, transport and packing</small></a>
+        <a href="#stay"><span>⌂</span><strong data-en="Where to Stay" data-it="Dove alloggiare">Where to Stay</strong><small data-en="Neighbourhoods and group options" data-it="Quartieri e opzioni di gruppo">Neighbourhoods and group options</small></a>
+        <a href="#gallery"><span>▦</span><strong data-en="Gallery" data-it="Galleria">Gallery</strong><small data-en="People, places and memories" data-it="Persone, luoghi e ricordi">People, places and memories</small></a>
+        <a href="#faq"><span>?</span><strong>FAQ</strong><small data-en="The answers in one place" data-it="Tutte le risposte in un solo posto">The answers in one place</small></a>
+        <a href="#rsvp"><span>✓</span><strong>RSVP</strong><small data-en="Tell me if you may join" data-it="Fammi sapere se potresti venire">Tell me if you may join</small></a>
+      </div>
+    </section>
+
+    <section class="section welcome">
+      <div>
+        <p class="section-kicker" data-en="Welcome" data-it="Benvenuti">Welcome</p>
+        <h2 data-en="All my worlds, together at last." data-it="Tutti i miei mondi, finalmente insieme.">All my worlds, together at last.</h2>
+        <p data-en="One of the things I say most often is how lucky I feel because of the people in my life. My friendships come from different countries, different chapters and completely different versions of me. For my fortieth birthday, I have decided to dream big and try to bring those worlds together."
+           data-it="Una delle cose che dico più spesso è quanto mi senta fortunata per le persone che ho nella mia vita. Le mie amicizie arrivano da Paesi diversi, capitoli diversi e versioni completamente diverse di me. Per i miei quarant'anni ho deciso di sognare in grande e provare a riunire tutti questi mondi.">
+          One of the things I say most often is how lucky I feel because of the people in my life. My friendships come from different countries, different chapters and completely different versions of me. For my fortieth birthday, I have decided to dream big and try to bring those worlds together.
+        </p>
+        <p data-en="This will be more than a party. It will be a Birthday Week filled with shared meals, adventures, music, laughter and enough free time for everyone to enjoy Medellín in their own way."
+           data-it="Sarà molto più di una festa. Sarà una Birthday Week fatta di cene insieme, avventure, musica, risate e abbastanza tempo libero perché ognuno possa vivere Medellín a modo proprio.">
+          This will be more than a party. It will be a Birthday Week filled with shared meals, adventures, music, laughter and enough free time for everyone to enjoy Medellín in their own way.
+        </p>
+      </div>
+      <aside class="note-card">
+        <span class="heart">♥</span>
+        <p data-en="I know travelling to Colombia is a big ask. There is absolutely no pressure. This page is here to give you everything you need to decide and plan."
+           data-it="So che viaggiare fino in Colombia è una richiesta importante. Non c'è assolutamente alcuna pressione. Questa pagina serve a darti tutte le informazioni necessarie per decidere e organizzarti.">
+          I know travelling to Colombia is a big ask. There is absolutely no pressure. This page is here to give you everything you need to decide and plan.
+        </p>
+        <span class="signature">Vale</span>
+      </aside>
+    </section>
+
+
+    <section id="about" class="section about">
+      <div class="about-copy">
+        <p class="section-kicker" data-en="About Vale" data-it="Chi è Vale">About Vale</p>
+        <h2 data-en="A life built across places, people and many different chapters"
+            data-it="Una vita costruita tra luoghi, persone e capitoli molto diversi">
+          A life built across places, people and many different chapters
+        </h2>
+        <p data-en="I have spent much of my adult life moving between countries, jobs, friendships and adventures. I have lived abroad, worked in travel and education, taught Italian online, guided groups across Europe and travelled independently through more places than I can easily count."
+           data-it="Ho trascorso gran parte della mia vita adulta spostandomi tra Paesi, lavori, amicizie e avventure. Ho vissuto all'estero, lavorato nel turismo e nella formazione, insegnato italiano online, accompagnato gruppi in giro per l'Europa e viaggiato in autonomia in più posti di quanti riesca facilmente a contare.">
+          I have spent much of my adult life moving between countries, jobs, friendships and adventures. I have lived abroad, worked in travel and education, taught Italian online, guided groups across Europe and travelled independently through more places than I can easily count.
+        </p>
+        <p data-en="Every chapter introduced me to people who became part of my life in completely different ways. Some friendships were born at work, others while travelling, studying, teaching or simply being in the right place at the right time."
+           data-it="Ogni capitolo mi ha fatto incontrare persone che sono entrate nella mia vita in modi completamente diversi. Alcune amicizie sono nate sul lavoro, altre viaggiando, studiando, insegnando o semplicemente trovandomi nel posto giusto al momento giusto.">
+          Every chapter introduced me to people who became part of my life in completely different ways. Some friendships were born at work, others while travelling, studying, teaching or simply being in the right place at the right time.
+        </p>
+        <p data-en="That is why this birthday is not only about turning forty. It is about celebrating the people who made these years fuller, richer and far more interesting than I could ever have planned."
+           data-it="Per questo questo compleanno non riguarda soltanto il fatto di compiere quarant'anni. Riguarda le persone che hanno reso questi anni più pieni, più ricchi e molto più interessanti di quanto avrei mai potuto programmare.">
+          That is why this birthday is not only about turning forty. It is about celebrating the people who made these years fuller, richer and far more interesting than I could ever have planned.
+        </p>
+      </div>
+      <aside class="about-highlight">
+        <p class="script">Why this matters</p>
+        <blockquote data-en="My dream has always been to see all my worlds meet. Medellín is my excuse to finally try."
+                    data-it="Il mio sogno è sempre stato vedere tutti i miei mondi incontrarsi. Medellín è la mia scusa per provarci davvero.">
+          My dream has always been to see all my worlds meet. Medellín is my excuse to finally try.
+        </blockquote>
+        <div class="about-facts">
+          <div><strong>42+</strong><span data-en="Countries visited" data-it="Paesi visitati">Countries visited</span></div>
+          <div><strong>800+</strong><span data-en="Italian towns explored" data-it="Città e borghi italiani esplorati">Italian towns explored</span></div>
+          <div><strong>1</strong><span data-en="Big birthday dream" data-it="Grande sogno di compleanno">Big birthday dream</span></div>
+        </div>
+      </aside>
+    </section>
+
+
+    <section class="section photo-story">
+      <p class="section-kicker" data-en="The people and places behind the week" data-it="Le persone e i luoghi dietro questa settimana">The people and places behind the week</p>
+      <h2 data-en="A celebration shaped by travel, friendship and Colombia"
+          data-it="Una celebrazione fatta di viaggi, amicizia e Colombia">
+        A celebration shaped by travel, friendship and Colombia
+      </h2>
+      <div class="photo-grid">
+        <figure class="photo-card large">
+          <img src="assets/gallery-medellin.jpg" alt="Medellín landscape">
+          <figcaption data-en="Medellín, the city bringing everyone together" data-it="Medellín, la città che riunirà tutti">Medellín, the city bringing everyone together</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="assets/gallery-colombia.jpg" alt="Colourful Colombian street">
+          <figcaption data-en="Colour, warmth and Colombian character" data-it="Colore, calore e carattere colombiano">Colour, warmth and Colombian character</figcaption>
+        </figure>
+        <figure class="photo-card personal">
+          <div>
+            <strong data-en="Vale's photo will go here" data-it="Qui andrà una foto di Vale">Vale's photo will go here</strong>
+            <span data-en="This space is already designed and ready for your favourite portrait."
+                  data-it="Questo spazio è già progettato e pronto per il tuo ritratto preferito.">
+              This space is already designed and ready for your favourite portrait.
+            </span>
+          </div>
+        </figure>
+        <figure class="photo-card">
+          <img src="assets/gallery-travel.jpg" alt="Travel themed collage">
+          <figcaption data-en="Friends arriving from different chapters and countries" data-it="Amici in arrivo da capitoli e Paesi diversi">Friends arriving from different chapters and countries</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="assets/a_warm_sunlit_travel_themed_poster_graphic_image.png" alt="Vale's Big Forty travel artwork">
+          <figcaption data-en="The visual identity of Vale's Big Forty" data-it="L'identità visiva di Vale's Big Forty">The visual identity of Vale's Big Forty</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="colombia" class="section tinted">
+      <p class="section-kicker">Colombia</p>
+      <h2 data-en="More than the story you may have heard" data-it="Molto più della storia che potresti aver sentito">More than the story you may have heard</h2>
+      <div class="two-columns">
+        <div>
+          <p data-en="Colombia is a country of extraordinary landscapes, regional cultures, music, food and warmth. Its international reputation is still heavily shaped by a difficult past, but that is only one part of a much larger and more complex story."
+             data-it="La Colombia è un Paese di paesaggi straordinari, culture regionali, musica, cibo e calore umano. La sua reputazione internazionale è ancora fortemente legata a un passato difficile, ma quella è solo una parte di una storia molto più ampia e complessa.">
+            Colombia is a country of extraordinary landscapes, regional cultures, music, food and warmth. Its international reputation is still heavily shaped by a difficult past, but that is only one part of a much larger and more complex story.
+          </p>
+          <p data-en="Medellín has undergone a remarkable urban and social transformation. Local guides, artists, entrepreneurs and residents are proud of the progress their city has made and often welcome visitors with genuine care. That does not mean ignoring real risks. It means travelling informed, staying in suitable areas, using trusted transport and applying the same good judgement you would use in any large city."
+             data-it="Medellín ha attraversato una notevole trasformazione urbana e sociale. Guide locali, artisti, imprenditori e residenti sono orgogliosi dei progressi compiuti dalla città e spesso accolgono i visitatori con grande attenzione. Questo non significa ignorare i rischi reali. Significa viaggiare informati, scegliere zone adatte, utilizzare trasporti affidabili e applicare lo stesso buon senso che useresti in qualsiasi grande città.">
+            Medellín has undergone a remarkable urban and social transformation. Local guides, artists, entrepreneurs and residents are proud of the progress their city has made and often welcome visitors with genuine care. That does not mean ignoring real risks. It means travelling informed, staying in suitable areas, using trusted transport and applying the same good judgement you would use in any large city.
+          </p>
+        </div>
+        <div class="myth-card">
+          <div>
+            <span data-en="The myth" data-it="Il mito">The myth</span>
+            <h3 data-en="Colombia is only its past." data-it="La Colombia è soltanto il suo passato.">Colombia is only its past.</h3>
+          </div>
+          <div>
+            <span data-en="The reality" data-it="La realtà">The reality</span>
+            <h3 data-en="A diverse country that deserves curiosity, preparation and respect." data-it="Un Paese vario che merita curiosità, preparazione e rispetto.">A diverse country that deserves curiosity, preparation and respect.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="info-strip">
+        <article><b>GMT −5</b><span data-en="Local time" data-it="Ora locale">Local time</span></article>
+        <article><b>COP</b><span data-en="Currency" data-it="Valuta">Currency</span></article>
+        <article><b>Spanish</b><span data-en="Main language" data-it="Lingua principale">Main language</span></article>
+        <article><b>18–28°C</b><span data-en="Typical Medellín range" data-it="Temperature tipiche a Medellín">Typical Medellín range</span></article>
+        <article><b>Type A / B</b><span data-en="Power sockets" data-it="Prese elettriche">Power sockets</span></article>
+      </div>
+      <p class="safety-note" data-en="Important: travel conditions can change. Before booking, check the official travel advice issued by your own government and arrange suitable travel insurance."
+         data-it="Importante: le condizioni di viaggio possono cambiare. Prima di prenotare, consulta gli avvisi ufficiali del tuo governo e stipula un'assicurazione di viaggio adeguata.">
+        Important: travel conditions can change. Before booking, check the official travel advice issued by your own government and arrange suitable travel insurance.
+      </p>
+    </section>
+
+    <section id="explore" class="section">
+      <p class="section-kicker" data-en="Explore Medellín and beyond" data-it="Esplora Medellín e dintorni">Explore Medellín and beyond</p>
+      <h2 data-en="Choose your own Colombian adventure" data-it="Scegli la tua avventura colombiana">Choose your own Colombian adventure</h2>
+      <div class="card-grid activities">
+        <article><div class="card-image guatape"></div><h3>Guatapé</h3><p data-en="Colourful streets, painted zócalos and a full day by the reservoir." data-it="Strade colorate, zócalos dipinti e una giornata sul lago artificiale.">Colourful streets, painted zócalos and a full day by the reservoir.</p><small data-en="Full day" data-it="Giornata intera">Full day</small></article>
+        <article><div class="card-image rock"></div><h3>Piedra del Peñol</h3><p data-en="A famous climb and panoramic views over the surrounding lakes." data-it="Una famosa salita e viste panoramiche sui laghi circostanti.">A famous climb and panoramic views over the surrounding lakes.</p><small data-en="Half day or combined with Guatapé" data-it="Mezza giornata o insieme a Guatapé">Half day or combined with Guatapé</small></article>
+        <article><div class="card-image comuna"></div><h3>Comuna 13</h3><p data-en="Street art, escalators and local stories, best experienced with a community guide." data-it="Street art, scale mobili e storie locali, da vivere preferibilmente con una guida della comunità.">Street art, escalators and local stories, best experienced with a community guide.</p><small data-en="Half day" data-it="Mezza giornata">Half day</small></article>
+        <article><div class="card-image coffee"></div><h3 data-en="Coffee farm" data-it="Finca del caffè">Coffee farm</h3><p data-en="Learn how Colombian coffee travels from plant to cup." data-it="Scopri il percorso del caffè colombiano dalla pianta alla tazza.">Learn how Colombian coffee travels from plant to cup.</p><small data-en="Half or full day" data-it="Mezza giornata o giornata intera">Half or full day</small></article>
+        <article><div class="card-image arvi"></div><h3>Parque Arví</h3><p data-en="A green escape reached by cable car, with trails and fresh mountain air." data-it="Una pausa nel verde raggiungibile in funivia, tra sentieri e aria fresca di montagna.">A green escape reached by cable car, with trails and fresh mountain air.</p><small data-en="Half day" data-it="Mezza giornata">Half day</small></article>
+        <article><div class="card-image salsa"></div><h3 data-en="Salsa night" data-it="Serata salsa">Salsa night</h3><p data-en="A friendly class followed by music, drinks and a chance to test our new moves." data-it="Una lezione divertente seguita da musica, drink e la possibilità di provare i nostri nuovi passi.">A friendly class followed by music, drinks and a chance to test our new moves.</p><small data-en="Evening" data-it="Serata">Evening</small></article>
+      </div>
+    </section>
+
+    <section id="week" class="section tinted">
+      <p class="section-kicker">Birthday Week</p>
+      <h2 data-en="A flexible week built around the people coming" data-it="Una settimana flessibile costruita in base a chi verrà">A flexible week built around the people coming</h2>
+      <p class="intro" data-en="The final schedule will depend on arrivals, group size and everyone’s interests. This is the first working version."
+         data-it="Il programma definitivo dipenderà dagli arrivi, dal numero di partecipanti e dagli interessi di tutti. Questa è una prima versione indicativa.">
+        The final schedule will depend on arrivals, group size and everyone’s interests. This is the first working version.
+      </p>
+      <div class="timeline">
+        <article><time>15 FEB</time><div><h3 data-en="Welcome dinner" data-it="Cena di benvenuto">Welcome dinner</h3><p data-en="A relaxed first evening to meet, eat and raise the first glass." data-it="Una prima serata tranquilla per conoscersi, mangiare insieme e fare il primo brindisi.">A relaxed first evening to meet, eat and raise the first glass.</p></div></article>
+        <article><time>16 FEB</time><div><h3>Guatapé</h3><p data-en="A colourful day trip with optional climb, lunch and time by the water." data-it="Una gita colorata con salita facoltativa, pranzo e tempo vicino all'acqua.">A colourful day trip with optional climb, lunch and time by the water.</p></div></article>
+        <article><time>17 FEB</time><div><h3 data-en="Medellín day" data-it="Giornata a Medellín">Medellín day</h3><p data-en="Comuna 13, city views and an easy evening before the main celebration." data-it="Comuna 13, viste sulla città e una serata tranquilla prima della festa principale.">Comuna 13, city views and an easy evening before the main celebration.</p></div></article>
+        <article class="featured"><time>18 FEB</time><div><h3 data-en="The Big 4 0 Celebration" data-it="La grande festa dei 40">The Big 4 0 Celebration</h3><p data-en="The main event. Exact venue and format will be chosen once we know the group size." data-it="L'evento principale. Luogo e formula saranno scelti quando sapremo il numero dei partecipanti.">The main event. Exact venue and format will be chosen once we know the group size.</p></div></article>
+        <article><time>19 FEB</time><div><h3 data-en="Pool day and recovery" data-it="Piscina e relax">Pool day and recovery</h3><p data-en="Sun, music, food and absolutely no ambitious plans." data-it="Sole, musica, cibo e assolutamente nessun programma impegnativo.">Sun, music, food and absolutely no ambitious plans.</p></div></article>
+        <article><time>20 FEB</time><div><h3 data-en="Coffee experience or free day" data-it="Esperienza del caffè o giornata libera">Coffee experience or free day</h3><p data-en="One last shared adventure, with the option to explore independently." data-it="Un'ultima avventura insieme, con la possibilità di esplorare anche in autonomia.">One last shared adventure, with the option to explore independently.</p></div></article>
+      </div>
+    </section>
+
+    <section id="travel" class="section">
+      <p class="section-kicker" data-en="Travel guide" data-it="Guida di viaggio">Travel guide</p>
+      <h2 data-en="Everything you need to start planning" data-it="Tutto ciò che serve per iniziare a organizzarsi">Everything you need to start planning</h2>
+      <div class="card-grid practical">
+        <article><span>✈</span><h3 data-en="Flights" data-it="Voli">Flights</h3><p data-en="Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE."
+          data-it="Prova diverse combinazioni di date e confronta Google Flights, Skyscanner e Momondo. Il principale aeroporto internazionale di Medellín è José María Córdova, codice MDE.">Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE.</p></article>
+        <article><span>🚕</span><h3 data-en="Getting around" data-it="Come muoversi">Getting around</h3><p data-en="There is no need to rent a car in the city. We will use organised transfers, registered taxis or established ride apps, depending on current local guidance."
+          data-it="Non è necessario noleggiare un'auto in città. Useremo transfer organizzati, taxi registrati o app affidabili, in base alle indicazioni locali aggiornate.">There is no need to rent a car in the city. We will use organised transfers, registered taxis or established ride apps, depending on current local guidance.</p></article>
+        <article><span>💳</span><h3 data-en="Money" data-it="Denaro">Money</h3><p data-en="Cards are widely useful, but carry a small amount of Colombian pesos. Use bank ATMs, decline unnecessary currency conversion and tell your bank you are travelling."
+          data-it="Le carte sono molto utili, ma porta con te una piccola quantità di pesos colombiani. Usa sportelli bancari, evita conversioni non necessarie e avvisa la banca del viaggio.">Cards are widely useful, but carry a small amount of Colombian pesos. Use bank ATMs, decline unnecessary currency conversion and tell your bank you are travelling.</p></article>
+        <article><span>📱</span><h3 data-en="Internet" data-it="Internet">Internet</h3><p data-en="An eSIM or local SIM makes maps and transport much easier. Exact providers and recommended packages will be updated closer to the trip."
+          data-it="Una eSIM o SIM locale rende molto più semplici mappe e trasporti. Operatori e pacchetti consigliati saranno aggiornati più vicino al viaggio.">An eSIM or local SIM makes maps and transport much easier. Exact providers and recommended packages will be updated closer to the trip.</p></article>
+        <article><span>🧳</span><h3 data-en="Packing" data-it="Cosa portare">Packing</h3><p data-en="Pack breathable layers, a light rain jacket, comfortable shoes, sun protection and one birthday outfit. Medellín is mild, but evenings and day trips can feel cooler."
+          data-it="Porta capi leggeri da sovrapporre, una giacca antipioggia, scarpe comode, protezione solare e un outfit da compleanno. Medellín è mite, ma le sere e le escursioni possono essere più fresche.">Pack breathable layers, a light rain jacket, comfortable shoes, sun protection and one birthday outfit. Medellín is mild, but evenings and day trips can feel cooler.</p></article>
+        <article><span>🛡</span><h3 data-en="Safety" data-it="Sicurezza">Safety</h3><p data-en="Stay aware, keep valuables discreet, avoid walking alone late at night, watch your drink and use trusted transport. We will share updated group guidance before departure."
+          data-it="Presta attenzione, tieni gli oggetti di valore poco visibili, evita di camminare da sola a tarda notte, controlla sempre il tuo drink e usa trasporti affidabili. Condivideremo indicazioni aggiornate prima della partenza.">Stay aware, keep valuables discreet, avoid walking alone late at night, watch your drink and use trusted transport. We will share updated group guidance before departure.</p></article>
+      </div>
+    </section>
+
+    <section id="stay" class="section tinted">
+      <p class="section-kicker" data-en="Where to stay" data-it="Dove alloggiare">Where to stay</p>
+      <h2 data-en="The neighbourhood should match your travel style" data-it="Il quartiere deve adattarsi al tuo stile di viaggio">The neighbourhood should match your travel style</h2>
+      <div class="card-grid neighbourhoods">
+        <article><h3>El Poblado</h3><p data-en="Convenient for a first visit, with many hotels, restaurants and nightlife. Often the easiest option, but usually the most expensive."
+          data-it="Comodo per una prima visita, con molti hotel, ristoranti e vita notturna. Spesso è l'opzione più semplice, ma di solito anche la più costosa.">Convenient for a first visit, with many hotels, restaurants and nightlife. Often the easiest option, but usually the most expensive.</p><b>€€€</b></article>
+        <article><h3>Laureles</h3><p data-en="More residential and walkable, with cafés, restaurants and a strong local feel. My likely first choice for independent accommodation."
+          data-it="Più residenziale e piacevole da vivere a piedi, con caffè, ristoranti e un'atmosfera locale. Probabilmente la mia prima scelta per chi prenota in autonomia.">More residential and walkable, with cafés, restaurants and a strong local feel. My likely first choice for independent accommodation.</p><b>€€</b></article>
+        <article><h3>Envigado</h3><p data-en="Calmer and more local, just south of Medellín. Good for people who value neighbourhood life over nightlife."
+          data-it="Più tranquillo e locale, appena a sud di Medellín. Adatto a chi preferisce la vita di quartiere alla vita notturna.">Calmer and more local, just south of Medellín. Good for people who value neighbourhood life over nightlife.</p><b>€€</b></article>
+        <article><h3>Sabaneta</h3><p data-en="A budget friendly, local option farther south. Better for longer stays than for a short, activity packed visit."
+          data-it="Un'opzione locale ed economica più a sud. Più adatta a soggiorni lunghi che a una visita breve e piena di attività.">A budget friendly, local option farther south. Better for longer stays than for a short, activity packed visit.</p><b>€</b></article>
+      </div>
+      <div class="highlight-box">
+        <h3 data-en="Group accommodation" data-it="Alloggio di gruppo">Group accommodation</h3>
+        <p data-en="Once the first RSVP round is complete, I will decide whether it makes sense to reserve a shared villa, several apartments close to one another, or independent accommodation with one central celebration venue."
+           data-it="Dopo il primo giro di RSVP deciderò se conviene prenotare una villa condivisa, diversi appartamenti vicini oppure alloggi indipendenti con un unico luogo centrale per la festa.">
+          Once the first RSVP round is complete, I will decide whether it makes sense to reserve a shared villa, several apartments close to one another, or independent accommodation with one central celebration venue.
+        </p>
+      </div>
+    </section>
+
+
+    <section id="gallery" class="section gallery-section">
+      <p class="section-kicker" data-en="Photo gallery" data-it="Galleria fotografica">Photo gallery</p>
+      <h2 data-en="The people and places behind the celebration"
+          data-it="Le persone e i luoghi dietro questa festa">
+        The people and places behind the celebration
+      </h2>
+      <p class="intro" data-en="This section is ready for personal photos of Vale, friends from different chapters of her life and the places we will experience together in Colombia."
+         data-it="Questa sezione è pronta per le foto personali di Vale, degli amici conosciuti nei diversi capitoli della sua vita e dei luoghi che vivremo insieme in Colombia.">
+        This section is ready for personal photos of Vale, friends from different chapters of her life and the places we will experience together in Colombia.
+      </p>
+      <div class="gallery-grid">
+        <article class="gallery-card personal"><div class="gallery-placeholder"><span>VALE</span></div><p data-en="Portrait or travel photo of Vale" data-it="Ritratto o foto di viaggio di Vale">Portrait or travel photo of Vale</p></article>
+        <article class="gallery-card friends"><div class="gallery-placeholder"><span>FRIENDS</span></div><p data-en="Friends from around the world" data-it="Amici da tutto il mondo">Friends from around the world</p></article>
+        <article class="gallery-card medellin"><div class="gallery-placeholder"><span>MEDELLÍN</span></div><p data-en="City views and neighbourhoods" data-it="Panorami e quartieri della città">City views and neighbourhoods</p></article>
+        <article class="gallery-card colombia"><div class="gallery-placeholder"><span>COLOMBIA</span></div><p data-en="Colour, landscapes and local culture" data-it="Colori, paesaggi e cultura locale">Colour, landscapes and local culture</p></article>
+        <article class="gallery-card guatape-card"><div class="gallery-placeholder"><span>GUATAPÉ</span></div><p data-en="Day trips and shared adventures" data-it="Escursioni e avventure insieme">Day trips and shared adventures</p></article>
+        <article class="gallery-card birthday"><div class="gallery-placeholder"><span>18 FEB</span></div><p data-en="The birthday celebration" data-it="La festa di compleanno">The birthday celebration</p></article>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <p class="section-kicker">FAQ</p>
+      <h2 data-en="Questions you may already be asking" data-it="Domande che probabilmente ti stai già facendo">Questions you may already be asking</h2>
+      <div class="accordion">
+        <details><summary data-en="Do I have to stay for the whole week?" data-it="Devo restare per tutta la settimana?">Do I have to stay for the whole week?</summary><p data-en="No. Join for the dates that work for you. The main celebration will be on 18 February 2027."
+          data-it="No. Partecipa nei giorni che ti sono più comodi. La festa principale sarà il 18 febbraio 2027.">No. Join for the dates that work for you. The main celebration will be on 18 February 2027.</p></details>
+        <details><summary data-en="Can I bring someone?" data-it="Posso portare qualcuno?">Can I bring someone?</summary><p data-en="Yes, but please include them in the RSVP so accommodation and activities can be planned accurately."
+          data-it="Sì, ma inseriscilo nell'RSVP in modo da poter organizzare correttamente alloggi e attività.">Yes, but please include them in the RSVP so accommodation and activities can be planned accurately.</p></details>
+        <details><summary data-en="Will accommodation be organised?" data-it="L'alloggio sarà organizzato?">Will accommodation be organised?</summary><p data-en="Possibly. It depends on numbers, preferences and budget. The first RSVP is designed to help make that decision."
+          data-it="Forse. Dipenderà dal numero di persone, dalle preferenze e dal budget. Il primo RSVP serve proprio a prendere questa decisione.">Possibly. It depends on numbers, preferences and budget. The first RSVP is designed to help make that decision.</p></details>
+        <details><summary data-en="Is the programme compulsory?" data-it="Il programma è obbligatorio?">Is the programme compulsory?</summary><p data-en="Not at all. Most activities will be optional, and there will be free time."
+          data-it="Assolutamente no. La maggior parte delle attività sarà facoltativa e ci sarà tempo libero.">Not at all. Most activities will be optional, and there will be free time.</p></details>
+        <details><summary data-en="When should I book flights?" data-it="Quando dovrei prenotare i voli?">When should I book flights?</summary><p data-en="Start tracking prices now, but wait for the first planning update before booking if your dates depend on group accommodation."
+          data-it="Puoi iniziare a monitorare i prezzi, ma aspetta il primo aggiornamento organizzativo prima di prenotare se le tue date dipendono dall'alloggio di gruppo.">Start tracking prices now, but wait for the first planning update before booking if your dates depend on group accommodation.</p></details>
+        <details><summary data-en="Will there be a WhatsApp group?" data-it="Ci sarà un gruppo WhatsApp?">Will there be a WhatsApp group?</summary><p data-en="Yes, once the likely guest list is clearer. Until then, updates will be shared individually."
+          data-it="Sì, quando la lista dei probabili partecipanti sarà più chiara. Fino ad allora gli aggiornamenti saranno condivisi individualmente.">Yes, once the likely guest list is clearer. Until then, updates will be shared individually.</p></details>
+      </div>
+    </section>
+
+    <section id="rsvp" class="section rsvp">
+      <div>
+        <p class="section-kicker" data-en="Join us" data-it="Unisciti a noi">Join us</p>
+        <h2 data-en="Could Medellín be part of your 2027?" data-it="Medellín potrebbe far parte del tuo 2027?">Could Medellín be part of your 2027?</h2>
+        <p data-en="Please complete the short form by 1 October 2026. This is an expression of interest, not a final commitment."
+           data-it="Compila il breve modulo entro il 1 ottobre 2026. Si tratta di una manifestazione di interesse, non di un impegno definitivo.">
+          Please complete the short form by 1 October 2026. This is an expression of interest, not a final commitment.
+        </p>
+        <a class="button primary" id="rsvp-link" href="https://forms.google.com" target="_blank" rel="noopener" data-en="RSVP now" data-it="Compila l'RSVP">RSVP now</a>
+        <small data-en="Replace this button link with your Google Form URL in index.html."
+               data-it="Sostituisci il link di questo pulsante con l'indirizzo del tuo Google Form nel file index.html.">
+          Replace this button link with your Google Form URL in index.html.
+        </small>
+      </div>
+      <div class="poster-card">
+        <img src="assets/a_warm_travel_themed_poster_flyer_collage_scene_o.png" alt="Vale's Big Forty invitation">
+      </div>
+    </section>
+  </main>
+
+  <a href="#home" class="back-to-top" aria-label="Back to top" title="Back to top">↑</a>
+
+  <footer>
+    <strong>Vale's Big Forty</strong>
+    <span>Medellín Edition · 18 February 2027</span>
+    <p data-en="Made with love for friends arriving from every chapter of my life."
+       data-it="Creato con amore per gli amici che arrivano da ogni capitolo della mia vita.">
+      Made with love for friends arriving from every chapter of my life.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
