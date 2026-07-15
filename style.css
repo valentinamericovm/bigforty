@@ -33,7 +33,7 @@ button, a { font: inherit; }
 .menu-button { display:none; margin-left:auto; border:0; background:none; color:white; font-size:1.5rem; }
 .hero {
   min-height: calc(100vh - 74px); position:relative; display:grid; place-items:center; text-align:center;
-  background: url("assets/hero-soft.jpg") center/cover no-repeat;
+  background: url("assets/hero-home.png") center/cover no-repeat;
 }
 .hero-overlay { position:absolute; inset:0; background:linear-gradient(180deg, rgba(24,18,15,.18), rgba(31,17,12,.42)); }
 .hero-content { position:relative; color:white; padding: 80px 22px; max-width:850px; text-shadow:0 3px 25px rgba(0,0,0,.35); }
