@@ -33,7 +33,7 @@ button, a { font: inherit; }
 .menu-button { display:none; margin-left:auto; border:0; background:none; color:white; font-size:1.5rem; }
 .hero {
   min-height: calc(100vh - 74px); position:relative; display:grid; place-items:center; text-align:center;
-  background: url("assets/hero-home.png") center/cover no-repeat;
+  background: url("assets/hero-home-cropped.png") center/cover no-repeat;
 }
 .eyebrow, .section-kicker { text-transform:uppercase; letter-spacing:.22em; font-weight:700; font-size:.78rem; }
 .hero h1 { margin:10px 0 0; font-family:"Libre Baskerville", serif; text-transform:uppercase; font-weight:400; line-height:.92; font-size:clamp(3.7rem, 8vw, 7.5rem); }
@@ -243,19 +243,21 @@ footer p { opacity:.75; font-size:.85rem; }
 /* Hero CTA overlay — image carries all the text/graphics */
 .hero-cta {
   position: absolute;
-  bottom: 13%;
+  bottom: 12%;
   left: 50%;
   transform: translateX(-50%);
+  white-space: nowrap;
 }
 .hero-btn {
   background: var(--burgundy);
   color: white;
-  border: 2px solid white;
-  padding: 0 40px;
-  min-height: 52px;
+  border: none;
+  padding: 0 48px;
+  min-height: 54px;
   font-size: .82rem;
   letter-spacing: .18em;
-  box-shadow: 0 10px 28px rgba(40,15,18,.28);
+  box-shadow: 0 10px 28px rgba(40,15,18,.32);
+  border-radius: 4px;
 }
 
 .back-to-top {
