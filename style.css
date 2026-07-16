@@ -84,7 +84,7 @@ h3 { font-family:"Libre Baskerville",serif; color:var(--green); line-height:1.3;
 .activities h3, .activities p, .activities small { margin-left:20px; margin-right:20px; }
 .activities h3 { margin-bottom:8px; }
 .activities p { font-size:.9rem; min-height:68px; }
-.activities small { color:var(--burgundy); font-weight:700; text-transform:uppercase; letter-spacing:.1em; }
+.activities small { color:var(--burgundy); font-weight:700; text-transform:uppercase; letter-spacing:.1em; display:block; text-align:left; text-align-last:left; }
 .card-image { height:180px; background-size:cover; background-position:center; }
 .guatape { background-image: url("assets/activity-guatape.jpg"); background-size: cover; background-position: center; }
 .rock    { background-image: url("assets/activity-rock.jpg");    background-size: cover; background-position: center; }
