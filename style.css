@@ -134,7 +134,6 @@ footer p { opacity:.75; font-size:.85rem; }
   .brand { min-width:0; }
   .brand span { font-size:.72rem; }
   .brand small { font-size:1rem; }
-  .hero { min-height:760px; }
   .countdown { gap:18px; }
   .countdown div { min-width:55px; }
   .info-strip { grid-template-columns:repeat(2,1fr); }
@@ -446,10 +445,15 @@ footer p { opacity:.75; font-size:.85rem; }
 
 @media (max-width: 620px) {
   .hero {
-    aspect-ratio: unset;
-    min-height: 56vw;
-    background-size: cover;
+    aspect-ratio: 1535 / 1024;
+    min-height: unset;
+    background-size: contain;
     background-position: center top;
-    padding-bottom: 24px;
+    padding-bottom: clamp(16px, 5vw, 28px);
+  }
+  .hero-btn {
+    min-height: 40px;
+    padding: 0 24px;
+    font-size: .7rem;
   }
 }
