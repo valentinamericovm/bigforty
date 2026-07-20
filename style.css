@@ -157,8 +157,9 @@ footer p { opacity:.75; font-size:.85rem; }
   gap:16px;
 }
 .quick-nav-grid a {
+  position: relative;
   min-height:145px;
-  padding:24px 20px;
+  padding:24px 20px 44px;
   background:white;
   border:1px solid var(--line);
   border-radius:12px;
@@ -166,11 +167,42 @@ footer p { opacity:.75; font-size:.85rem; }
   color:var(--ink);
   box-shadow:0 8px 28px rgba(64,38,32,.07);
   transition:.2s ease;
+  overflow: hidden;
 }
 .quick-nav-grid a:hover {
   transform:translateY(-4px);
   border-color:rgba(123,30,43,.4);
   box-shadow:0 14px 34px rgba(64,38,32,.12);
+}
+
+/* Arrow — shaft + arrowhead via border trick */
+.quick-nav-grid a::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  bottom: 18px;
+  width: 28px;
+  height: 2px;
+  background: var(--burgundy);
+  transition: width .2s ease;
+}
+.quick-nav-grid a::before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  bottom: 13px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--burgundy);
+  border-bottom: 2px solid var(--burgundy);
+  transform: rotate(-45deg);
+  transition: right .2s ease;
+}
+.quick-nav-grid a:hover::after {
+  width: 34px;
+}
+.quick-nav-grid a:hover::before {
+  right: 18px;
 }
 .quick-nav-grid span {
   display:block;
