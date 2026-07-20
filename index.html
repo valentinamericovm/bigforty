@@ -20,9 +20,9 @@
     <nav class="main-nav" aria-label="Main navigation">
       <a href="#home" data-en="Home" data-it="Home">Home</a>
       <a href="#week" data-en="Birthday Week" data-it="Birthday Week">Birthday Week</a>
-      <a href="#colombia" data-en="Colombia &amp; Medellín" data-it="Colombia &amp; Medellín">Colombia &amp; Medellín</a>
-      <a href="#stay" data-en="Where to Stay" data-it="Dove alloggiare">Where to Stay</a>
       <a href="#travel" data-en="Travel Guide" data-it="Guida di viaggio">Travel Guide</a>
+      <a href="#stay" data-en="Where to Stay" data-it="Dove alloggiare">Where to Stay</a>
+      <a href="#colombia" data-en="Colombia" data-it="Colombia">Colombia</a>
       <a href="#about" data-en="About Vale" data-it="Chi è Vale">About Vale</a>
       <a href="#rsvp" data-en="RSVP" data-it="RSVP">RSVP</a>
       <a href="#faq" data-en="FAQ" data-it="FAQ">FAQ</a>
@@ -35,12 +35,15 @@
   </header>
 
   <main>
+
+    <!-- 1. HERO -->
     <section id="home" class="hero">
       <div class="hero-cta">
         <a class="button primary hero-btn" href="#rsvp" data-en="I'm coming!" data-it="Ci sarò!">I'm coming!</a>
       </div>
     </section>
 
+    <!-- COUNTDOWN -->
     <section class="countdown-section">
       <p class="section-kicker" data-en="The countdown" data-it="Il conto alla rovescia">The countdown</p>
       <div id="countdown" class="countdown" aria-live="polite">
@@ -51,19 +54,21 @@
       </div>
     </section>
 
+    <!-- QUICK NAV -->
     <section class="quick-nav" aria-label="Quick navigation">
       <p class="section-kicker" data-en="Explore the site" data-it="Esplora il sito">Explore the site</p>
       <div class="quick-nav-grid">
         <a href="#week"><span>◷</span><strong>Birthday Week</strong><small data-en="The evolving schedule" data-it="Il programma in evoluzione">The evolving schedule</small></a>
-        <a href="#colombia"><span>✦</span><strong>Colombia &amp; Medellín</strong><small data-en="Context, culture, safety and things to do" data-it="Contesto, cultura, sicurezza e cosa fare">Context, culture, safety and things to do</small></a>
-        <a href="#stay"><span>⌂</span><strong data-en="Where to Stay" data-it="Dove alloggiare">Where to Stay</strong><small data-en="Neighbourhoods and group options" data-it="Quartieri e opzioni di gruppo">Neighbourhoods and group options</small></a>
         <a href="#travel"><span>✈</span><strong data-en="Travel Guide" data-it="Guida di viaggio">Travel Guide</strong><small data-en="Flights, money, transport and packing" data-it="Informazioni logistiche">Flights, money, transport and packing</small></a>
+        <a href="#stay"><span>⌂</span><strong data-en="Where to Stay" data-it="Dove alloggiare">Where to Stay</strong><small data-en="Neighbourhoods and group options" data-it="Quartieri e opzioni di gruppo">Neighbourhoods and group options</small></a>
+        <a href="#colombia"><span>✦</span><strong>Colombia &amp; Medellín</strong><small data-en="Context, culture, safety and things to do" data-it="Contesto, cultura, sicurezza e cosa fare">Context, culture, safety and things to do</small></a>
         <a href="#about"><span>♥</span><strong data-en="About Vale" data-it="Chi è Vale">About Vale</strong><small data-en="Why this birthday matters" data-it="Perché questo compleanno conta">Why this birthday matters</small></a>
         <a href="#rsvp"><span>✓</span><strong>RSVP</strong><small data-en="Tell me if you may join" data-it="Fammi sapere se potresti venire">Tell me if you may join</small></a>
         <a href="#faq"><span>?</span><strong>FAQ</strong><small data-en="The answers in one place" data-it="Tutte le risposte in un solo posto">The answers in one place</small></a>
       </div>
     </section>
 
+    <!-- 2. ALL MY WORLDS -->
     <section class="section welcome">
       <div>
         <p class="section-kicker" data-en="Welcome" data-it="Benvenuti">Welcome</p>
@@ -88,6 +93,7 @@
       </aside>
     </section>
 
+    <!-- 3. BIRTHDAY WEEK -->
     <section id="week" class="section tinted">
       <p class="section-kicker">Birthday Week</p>
       <h2 data-en="A flexible week built around the people coming" data-it="Una settimana flessibile costruita in base a chi verrà">A flexible week built around the people coming</h2>
@@ -105,6 +111,47 @@
       </div>
     </section>
 
+    <!-- 4. TRAVEL GUIDE (with info-strip moved here) -->
+    <section id="travel" class="section">
+      <p class="section-kicker" data-en="Travel guide" data-it="Guida di viaggio">Travel guide</p>
+      <h2 data-en="Everything you need to start planning" data-it="Tutto ciò che serve per iniziare a organizzarsi">Everything you need to start planning</h2>
+      <div class="info-strip">
+        <article><b>GMT −5</b><span data-en="Local time" data-it="Ora locale">Local time</span></article>
+        <article><b>COP</b><span data-en="Currency" data-it="Valuta">Currency</span></article>
+        <article><b>Spanish</b><span data-en="Main language" data-it="Lingua principale">Main language</span></article>
+        <article><b>18–28°C</b><span data-en="Typical Medellín temperature" data-it="Temperature tipiche a Medellín">Typical Medellín temperature</span></article>
+        <article><b>Type A / B</b><span data-en="Power sockets" data-it="Prese elettriche">Power sockets</span></article>
+      </div>
+      <div class="card-grid practical" style="margin-top:40px;">
+        <article><span>✈</span><h3 data-en="Flights" data-it="Voli">Flights</h3><p data-en="Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE." data-it="Prova diverse combinazioni di date e confronta Google Flights, Skyscanner e Momondo. Il principale aeroporto internazionale di Medellín è José María Córdova, codice MDE.">Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE.</p></article>
+        <article><span>🚕</span><h3 data-en="Getting around" data-it="Come muoversi">Getting around</h3><p data-en="There is no need to rent a car in the city. We will use organised transfers, registered taxis or established ride apps, depending on current local guidance." data-it="Non è necessario noleggiare un'auto in città. Useremo transfer organizzati, taxi registrati o app affidabili, in base alle indicazioni locali aggiornate.">There is no need to rent a car in the city. We will use organised transfers, registered taxis or established ride apps, depending on current local guidance.</p></article>
+        <article><span>💳</span><h3 data-en="Money" data-it="Denaro">Money</h3><p data-en="Cards are widely useful, but carry a small amount of Colombian pesos. Use bank ATMs, decline unnecessary currency conversion and tell your bank you are travelling." data-it="Le carte sono molto utili, ma porta con te una piccola quantità di pesos colombiani. Usa sportelli bancari, evita conversioni non necessarie e avvisa la banca del viaggio.">Cards are widely useful, but carry a small amount of Colombian pesos. Use bank ATMs, decline unnecessary currency conversion and tell your bank you are travelling.</p></article>
+        <article><span>📱</span><h3 data-en="Internet" data-it="Internet">Internet</h3><p data-en="An eSIM or local SIM makes maps and transport much easier. Exact providers and recommended packages will be updated closer to the trip." data-it="Una eSIM o SIM locale rende molto più semplici mappe e trasporti. Operatori e pacchetti consigliati saranno aggiornati più vicino al viaggio.">An eSIM or local SIM makes maps and transport much easier. Exact providers and recommended packages will be updated closer to the trip.</p></article>
+        <article><span>🧳</span><h3 data-en="Packing" data-it="Cosa portare">Packing</h3><p data-en="Pack breathable layers, a light rain jacket, comfortable shoes, sun protection and one birthday outfit. Medellín is mild, but evenings and day trips can feel cooler." data-it="Porta capi leggeri da indossare a strati, una giacca antipioggia, scarpe comode, protezione solare e un outfit da compleanno. Medellín è mite, ma le sere e le escursioni possono essere più fresche.">Pack breathable layers, a light rain jacket, comfortable shoes, sun protection and one birthday outfit. Medellín is mild, but evenings and day trips can feel cooler.</p></article>
+        <article><span>🛡</span><h3 data-en="Safety" data-it="Sicurezza">Safety</h3><p data-en="Stay aware, keep valuables discreet, avoid walking alone late at night, watch your drink and use trusted transport. We will share updated group guidance before departure." data-it="Presta attenzione, tieni gli oggetti di valore poco visibili, evita di camminare da sola a tarda notte, controlla sempre il tuo drink e usa trasporti affidabili. Condivideremo indicazioni aggiornate prima della partenza.">Stay aware, keep valuables discreet, avoid walking alone late at night, watch your drink and use trusted transport. We will share updated group guidance before departure.</p></article>
+      </div>
+    </section>
+
+    <!-- 5. WHERE TO STAY -->
+    <section id="stay" class="section tinted">
+      <p class="section-kicker" data-en="Where to stay" data-it="Dove alloggiare">Where to stay</p>
+      <h2 data-en="The neighbourhood should match your travel style" data-it="Il quartiere deve adattarsi al tuo stile di viaggio">The neighbourhood should match your travel style</h2>
+      <div class="card-grid neighbourhoods">
+        <article><h3>El Poblado</h3><p data-en="Convenient for a first visit, with many hotels, restaurants and nightlife. Often the easiest option, but usually the most expensive." data-it="Comodo per una prima visita, con molti hotel, ristoranti e vita notturna. Spesso è l'opzione più semplice, ma di solito anche la più costosa.">Convenient for a first visit, with many hotels, restaurants and nightlife. Often the easiest option, but usually the most expensive.</p><b>€€€</b></article>
+        <article><h3>Laureles</h3><p data-en="More residential and walkable, with cafés, restaurants and a strong local feel. My likely first choice for independent accommodation." data-it="Più residenziale e piacevole da vivere a piedi, con caffè, ristoranti e un'atmosfera locale. Probabilmente la mia prima scelta per chi prenota in autonomia.">More residential and walkable, with cafés, restaurants and a strong local feel. My likely first choice for independent accommodation.</p><b>€€</b></article>
+        <article><h3>Envigado</h3><p data-en="Calmer and more local, just south of Medellín. Good for people who value neighbourhood life over nightlife." data-it="Più tranquillo e locale, appena a sud di Medellín. Adatto a chi preferisce la vita di quartiere alla vita notturna.">Calmer and more local, just south of Medellín. Good for people who value neighbourhood life over nightlife.</p><b>€€</b></article>
+        <article><h3>Sabaneta</h3><p data-en="A budget friendly, local option farther south. Better for longer stays than for a short, activity packed visit." data-it="Un'opzione locale ed economica più a sud. Più adatta a soggiorni lunghi che a una visita breve e piena di attività.">A budget friendly, local option farther south. Better for longer stays than for a short, activity packed visit.</p><b>€</b></article>
+      </div>
+      <div class="highlight-box">
+        <h3 data-en="Group accommodation" data-it="Alloggio di gruppo">Group accommodation</h3>
+        <p data-en="Once the first RSVP round is complete, I will decide whether it makes sense to reserve a shared villa, several apartments close to one another, or independent accommodation with one central celebration venue."
+           data-it="Dopo il primo giro di RSVP deciderò se conviene prenotare una villa condivisa, diversi appartamenti vicini oppure alloggi indipendenti con un unico luogo centrale per la festa.">
+          Once the first RSVP round is complete, I will decide whether it makes sense to reserve a shared villa, several apartments close to one another, or independent accommodation with one central celebration venue.
+        </p>
+      </div>
+    </section>
+
+    <!-- 6. COLOMBIA & MEDELLÍN (no info-strip; activities as accordion) -->
     <section id="colombia" class="section tinted">
       <p class="section-kicker">Colombia &amp; Medellín</p>
       <h2 data-en="More than the story you may have heard" data-it="Molto più della storia che potresti aver sentito">More than the story you may have heard</h2>
@@ -130,60 +177,34 @@
           </div>
         </div>
       </div>
-      <div class="info-strip">
-        <article><b>GMT −5</b><span data-en="Local time" data-it="Ora locale">Local time</span></article>
-        <article><b>COP</b><span data-en="Currency" data-it="Valuta">Currency</span></article>
-        <article><b>Spanish</b><span data-en="Main language" data-it="Lingua principale">Main language</span></article>
-        <article><b>18–28°C</b><span data-en="Typical Medellín range" data-it="Temperature tipiche a Medellín">Typical Medellín range</span></article>
-        <article><b>Type A / B</b><span data-en="Power sockets" data-it="Prese elettriche">Power sockets</span></article>
-      </div>
       <p class="safety-note" data-en="Important: travel conditions can change. Before booking, check the official travel advice issued by your own government and arrange suitable travel insurance."
          data-it="Importante: le condizioni di viaggio possono cambiare. Prima di prenotare, consulta gli avvisi ufficiali del tuo governo e stipula un'assicurazione di viaggio adeguata.">
         Important: travel conditions can change. Before booking, check the official travel advice issued by your own government and arrange suitable travel insurance.
       </p>
-      <p class="section-kicker" style="margin-top:56px;" data-en="Explore Medellín and beyond" data-it="Esplora Medellín e dintorni">Explore Medellín and beyond</p>
-      <h2 data-en="Choose your own Colombian adventure" data-it="Scegli la tua avventura colombiana">Choose your own Colombian adventure</h2>
-      <div class="card-grid activities">
-        <article><div class="card-image guatape"></div><h3>Guatapé</h3><p data-en="Colourful streets, painted zócalos and a full day by the reservoir." data-it="Strade colorate, zócalos dipinti e una giornata sul lago artificiale.">Colourful streets, painted zócalos and a full day by the reservoir.</p><small data-en="Full day" data-it="Giornata intera">Full day</small></article>
-        <article><div class="card-image rock"></div><h3>Piedra del Peñol</h3><p data-en="A famous climb and panoramic views over the surrounding lakes." data-it="Una famosa salita e viste panoramiche sui laghi circostanti.">A famous climb and panoramic views over the surrounding lakes.</p><small data-en="Half day or combined with Guatapé" data-it="Mezza giornata o insieme a Guatapé">Half day or combined with Guatapé</small></article>
-        <article><div class="card-image comuna"></div><h3>Comuna 13</h3><p data-en="Street art, escalators and local stories, best experienced with a community guide." data-it="Street art, scale mobili e storie locali, da vivere preferibilmente con una guida della comunità.">Street art, escalators and local stories, best experienced with a community guide.</p><small data-en="Half day" data-it="Mezza giornata">Half day</small></article>
-        <article><div class="card-image coffee"></div><h3 data-en="Coffee farm" data-it="Finca del caffè">Coffee farm</h3><p data-en="Learn how Colombian coffee travels from plant to cup." data-it="Scopri il percorso del caffè colombiano dalla pianta alla tazza.">Learn how Colombian coffee travels from plant to cup.</p><small data-en="Half or full day" data-it="Mezza giornata o giornata intera">Half or full day</small></article>
-        <article><div class="card-image arvi"></div><h3>Parque Arví</h3><p data-en="A green escape reached by cable car, with trails and fresh mountain air." data-it="Una pausa nel verde raggiungibile in funivia, tra sentieri e aria fresca di montagna.">A green escape reached by cable car, with trails and fresh mountain air.</p><small data-en="Half day" data-it="Mezza giornata">Half day</small></article>
-        <article><div class="card-image salsa"></div><h3 data-en="Salsa night" data-it="Serata salsa">Salsa night</h3><p data-en="A friendly class followed by music, drinks and a chance to test our new moves." data-it="Una lezione divertente seguita da musica, drink e la possibilità di provare i nostri nuovi passi.">A friendly class followed by music, drinks and a chance to test our new moves.</p><small data-en="Evening" data-it="Serata">Evening</small></article>
+
+      <!-- ACTIVITIES ACCORDION -->
+      <div class="activities-accordion" id="activities-accordion">
+        <button class="activities-accordion__trigger" aria-expanded="false" aria-controls="activities-panel">
+          <span class="activities-accordion__titles">
+            <strong data-en="Choose your own Colombian adventure" data-it="Scegli la tua avventura colombiana">Choose your own Colombian adventure</strong>
+            <small data-en="Explore activities in Medellín and beyond" data-it="Scopri le attività da fare a Medellín e dintorni">Explore activities in Medellín and beyond</small>
+          </span>
+          <span class="activities-accordion__chevron" aria-hidden="true">▼</span>
+        </button>
+        <div class="activities-accordion__panel" id="activities-panel" role="region" aria-labelledby="activities-accordion">
+          <div class="card-grid activities">
+            <article><div class="card-image guatape"></div><h3>Guatapé</h3><p data-en="Colourful streets, painted zócalos and a full day by the reservoir." data-it="Strade colorate, zócalos dipinti e una giornata sul lago artificiale.">Colourful streets, painted zócalos and a full day by the reservoir.</p><small data-en="Full day" data-it="Giornata intera">Full day</small></article>
+            <article><div class="card-image rock"></div><h3>Piedra del Peñol</h3><p data-en="A famous climb and panoramic views over the surrounding lakes." data-it="Una famosa salita e viste panoramiche sui laghi circostanti.">A famous climb and panoramic views over the surrounding lakes.</p><small data-en="Half day or combined with Guatapé" data-it="Mezza giornata o insieme a Guatapé">Half day or combined with Guatapé</small></article>
+            <article><div class="card-image comuna"></div><h3>Comuna 13</h3><p data-en="Street art, escalators and local stories, best experienced with a community guide." data-it="Street art, scale mobili e storie locali, da vivere preferibilmente con una guida della comunità.">Street art, escalators and local stories, best experienced with a community guide.</p><small data-en="Half day" data-it="Mezza giornata">Half day</small></article>
+            <article><div class="card-image coffee"></div><h3 data-en="Coffee farm" data-it="Finca del caffè">Coffee farm</h3><p data-en="Learn how Colombian coffee travels from plant to cup." data-it="Scopri il percorso del caffè colombiano dalla pianta alla tazza.">Learn how Colombian coffee travels from plant to cup.</p><small data-en="Half or full day" data-it="Mezza giornata o giornata intera">Half or full day</small></article>
+            <article><div class="card-image arvi"></div><h3>Parque Arví</h3><p data-en="A green escape reached by cable car, with trails and fresh mountain air." data-it="Una pausa nel verde raggiungibile in funivia, tra sentieri e aria fresca di montagna.">A green escape reached by cable car, with trails and fresh mountain air.</p><small data-en="Half day" data-it="Mezza giornata">Half day</small></article>
+            <article><div class="card-image salsa"></div><h3 data-en="Salsa night" data-it="Serata salsa">Salsa night</h3><p data-en="A friendly class followed by music, drinks and a chance to test our new moves." data-it="Una lezione divertente seguita da musica, drink e la possibilità di provare i nostri nuovi passi.">A friendly class followed by music, drinks and a chance to test our new moves.</p><small data-en="Evening" data-it="Serata">Evening</small></article>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="stay" class="section tinted">
-      <p class="section-kicker" data-en="Where to stay" data-it="Dove alloggiare">Where to stay</p>
-      <h2 data-en="The neighbourhood should match your travel style" data-it="Il quartiere deve adattarsi al tuo stile di viaggio">The neighbourhood should match your travel style</h2>
-      <div class="card-grid neighbourhoods">
-        <article><h3>El Poblado</h3><p data-en="Convenient for a first visit, with many hotels, restaurants and nightlife. Often the easiest option, but usually the most expensive." data-it="Comodo per una prima visita, con molti hotel, ristoranti e vita notturna. Spesso è l'opzione più semplice, ma di solito anche la più costosa.">Convenient for a first visit, with many hotels, restaurants and nightlife. Often the easiest option, but usually the most expensive.</p><b>€€€</b></article>
-        <article><h3>Laureles</h3><p data-en="More residential and walkable, with cafés, restaurants and a strong local feel. My likely first choice for independent accommodation." data-it="Più residenziale e piacevole da vivere a piedi, con caffè, ristoranti e un'atmosfera locale. Probabilmente la mia prima scelta per chi prenota in autonomia.">More residential and walkable, with cafés, restaurants and a strong local feel. My likely first choice for independent accommodation.</p><b>€€</b></article>
-        <article><h3>Envigado</h3><p data-en="Calmer and more local, just south of Medellín. Good for people who value neighbourhood life over nightlife." data-it="Più tranquillo e locale, appena a sud di Medellín. Adatto a chi preferisce la vita di quartiere alla vita notturna.">Calmer and more local, just south of Medellín. Good for people who value neighbourhood life over nightlife.</p><b>€€</b></article>
-        <article><h3>Sabaneta</h3><p data-en="A budget friendly, local option farther south. Better for longer stays than for a short, activity packed visit." data-it="Un'opzione locale ed economica più a sud. Più adatta a soggiorni lunghi che a una visita breve e piena di attività.">A budget friendly, local option farther south. Better for longer stays than for a short, activity packed visit.</p><b>€</b></article>
-      </div>
-      <div class="highlight-box">
-        <h3 data-en="Group accommodation" data-it="Alloggio di gruppo">Group accommodation</h3>
-        <p data-en="Once the first RSVP round is complete, I will decide whether it makes sense to reserve a shared villa, several apartments close to one another, or independent accommodation with one central celebration venue."
-           data-it="Dopo il primo giro di RSVP deciderò se conviene prenotare una villa condivisa, diversi appartamenti vicini oppure alloggi indipendenti con un unico luogo centrale per la festa.">
-          Once the first RSVP round is complete, I will decide whether it makes sense to reserve a shared villa, several apartments close to one another, or independent accommodation with one central celebration venue.
-        </p>
-      </div>
-    </section>
-
-    <section id="travel" class="section">
-      <p class="section-kicker" data-en="Travel guide" data-it="Guida di viaggio">Travel guide</p>
-      <h2 data-en="Everything you need to start planning" data-it="Tutto ciò che serve per iniziare a organizzarsi">Everything you need to start planning</h2>
-      <div class="card-grid practical">
-        <article><span>✈</span><h3 data-en="Flights" data-it="Voli">Flights</h3><p data-en="Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE." data-it="Prova diverse combinazioni di date e confronta Google Flights, Skyscanner e Momondo. Il principale aeroporto internazionale di Medellín è José María Córdova, codice MDE.">Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE.</p></article>
-        <article><span>🚕</span><h3 data-en="Getting around" data-it="Come muoversi">Getting around</h3><p data-en="There is no need to rent a car in the city. We will use organised transfers, registered taxis or established ride apps, depending on current local guidance." data-it="Non è necessario noleggiare un'auto in città. Useremo transfer organizzati, taxi registrati o app affidabili, in base alle indicazioni locali aggiornate.">There is no need to rent a car in the city. We will use organised transfers, registered taxis or established ride apps, depending on current local guidance.</p></article>
-        <article><span>💳</span><h3 data-en="Money" data-it="Denaro">Money</h3><p data-en="Cards are widely useful, but carry a small amount of Colombian pesos. Use bank ATMs, decline unnecessary currency conversion and tell your bank you are travelling." data-it="Le carte sono molto utili, ma porta con te una piccola quantità di pesos colombiani. Usa sportelli bancari, evita conversioni non necessarie e avvisa la banca del viaggio.">Cards are widely useful, but carry a small amount of Colombian pesos. Use bank ATMs, decline unnecessary currency conversion and tell your bank you are travelling.</p></article>
-        <article><span>📱</span><h3 data-en="Internet" data-it="Internet">Internet</h3><p data-en="An eSIM or local SIM makes maps and transport much easier. Exact providers and recommended packages will be updated closer to the trip." data-it="Una eSIM o SIM locale rende molto più semplici mappe e trasporti. Operatori e pacchetti consigliati saranno aggiornati più vicino al viaggio.">An eSIM or local SIM makes maps and transport much easier. Exact providers and recommended packages will be updated closer to the trip.</p></article>
-        <article><span>🧳</span><h3 data-en="Packing" data-it="Cosa portare">Packing</h3><p data-en="Pack breathable layers, a light rain jacket, comfortable shoes, sun protection and one birthday outfit. Medellín is mild, but evenings and day trips can feel cooler." data-it="Porta capi leggeri da indossare a strati, una giacca antipioggia, scarpe comode, protezione solare e un outfit da compleanno. Medellín è mite, ma le sere e le escursioni possono essere più fresche.">Pack breathable layers, a light rain jacket, comfortable shoes, sun protection and one birthday outfit. Medellín is mild, but evenings and day trips can feel cooler.</p></article>
-        <article><span>🛡</span><h3 data-en="Safety" data-it="Sicurezza">Safety</h3><p data-en="Stay aware, keep valuables discreet, avoid walking alone late at night, watch your drink and use trusted transport. We will share updated group guidance before departure." data-it="Presta attenzione, tieni gli oggetti di valore poco visibili, evita di camminare da sola a tarda notte, controlla sempre il tuo drink e usa trasporti affidabili. Condivideremo indicazioni aggiornate prima della partenza.">Stay aware, keep valuables discreet, avoid walking alone late at night, watch your drink and use trusted transport. We will share updated group guidance before departure.</p></article>
-      </div>
-    </section>
-
+    <!-- 7. ABOUT VALE -->
     <section id="about" class="section about">
       <div class="about-copy">
         <p class="section-kicker" data-en="About Vale" data-it="Chi è Vale">About Vale</p>
@@ -217,6 +238,7 @@
       </aside>
     </section>
 
+    <!-- 8. RSVP -->
     <section id="rsvp" class="section rsvp">
       <div>
         <p class="section-kicker" data-en="Join us" data-it="Unisciti a noi">Join us</p>
@@ -226,13 +248,13 @@
           Please complete the short form by 1 October 2026. This is an expression of interest, not a final commitment.
         </p>
         <a class="button primary" id="rsvp-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfkCQ9r-2tJj1t9vOOPAoMioyhFV8H0iV2lX94LJlkhOVV43Q/viewform?usp=header" target="_blank" rel="noopener" data-en="RSVP now" data-it="Compila l'RSVP">RSVP now</a>
-
       </div>
       <div class="poster-card">
         <img src="assets/a_warm_travel_themed_poster_flyer_collage_scene_o.png" alt="Vale's Big Forty invitation">
       </div>
     </section>
 
+    <!-- 9. FAQ -->
     <section id="faq" class="section">
       <p class="section-kicker">FAQ</p>
       <h2 data-en="Questions you may already be asking" data-it="Domande che probabilmente ti stai già facendo">Questions you may already be asking</h2>
@@ -245,6 +267,7 @@
         <details><summary data-en="Will there be a WhatsApp group?" data-it="Ci sarà un gruppo WhatsApp?">Will there be a WhatsApp group?</summary><p data-en="Yes, once the likely guest list is clearer. Until then, updates will be shared individually." data-it="Sì, quando la lista dei probabili partecipanti sarà più chiara. Fino ad allora gli aggiornamenti saranno condivisi individualmente.">Yes, once the likely guest list is clearer. Until then, updates will be shared individually.</p></details>
       </div>
     </section>
+
   </main>
 
   <a href="#home" class="back-to-top" aria-label="Back to top" title="Back to top">↑</a>

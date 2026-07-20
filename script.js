@@ -35,3 +35,16 @@ document.querySelectorAll(".lang").forEach(button => {
   button.addEventListener("click", () => setLanguage(button.dataset.lang));
 });
 setLanguage(localStorage.getItem("valeLanguage") || "en");
+
+// Activities accordion
+(function () {
+  const trigger = document.querySelector(".activities-accordion__trigger");
+  const panel   = document.querySelector(".activities-accordion__panel");
+  if (!trigger || !panel) return;
+
+  trigger.addEventListener("click", function () {
+    const isOpen = this.getAttribute("aria-expanded") === "true";
+    this.setAttribute("aria-expanded", String(!isOpen));
+    panel.classList.toggle("is-open", !isOpen);
+  });
+})();
