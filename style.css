@@ -179,7 +179,7 @@ footer p { opacity:.75; font-size:.85rem; }
 .quick-nav-grid a::after {
   content: "";
   position: absolute;
-  right: 20px;
+  right: 32px;
   bottom: 18px;
   width: 18px;
   height: 2px;
@@ -189,7 +189,7 @@ footer p { opacity:.75; font-size:.85rem; }
 .quick-nav-grid a::before {
   content: "";
   position: absolute;
-  right: 20px;
+  right: 32px;
   bottom: 13px;
   width: 10px;
   height: 10px;
@@ -202,7 +202,7 @@ footer p { opacity:.75; font-size:.85rem; }
   width: 24px;
 }
 .quick-nav-grid a:hover::before {
-  right: 18px;
+  right: 30px;
 }
 .quick-nav-grid span {
   display:block;
@@ -579,6 +579,10 @@ footer p { opacity:.75; font-size:.85rem; }
 }
 .activities-accordion__panel > .card-grid {
   overflow: hidden;
+  padding: 0;
+  transition: padding .35s ease;
+}
+.activities-accordion__panel.is-open > .card-grid {
   padding: 32px;
 }
 
@@ -586,7 +590,7 @@ footer p { opacity:.75; font-size:.85rem; }
   .activities-accordion__trigger {
     padding: 22px 20px;
   }
-  .activities-accordion__panel > .card-grid {
+  .activities-accordion__panel.is-open > .card-grid {
     padding: 20px;
   }
 }
