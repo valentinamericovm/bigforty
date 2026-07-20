@@ -491,7 +491,7 @@ footer p { opacity:.75; font-size:.85rem; }
 .activities-accordion__titles strong {
   display: block;
   font-family: "Libre Baskerville", serif;
-  color: var(--green);
+  color: var(--burgundy);
   font-size: clamp(1rem, 2vw, 1.25rem);
   line-height: 1.3;
 }
@@ -505,15 +505,36 @@ footer p { opacity:.75; font-size:.85rem; }
   letter-spacing: 0;
 }
 
-.activities-accordion__chevron {
+.activities-accordion__toggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
   flex-shrink: 0;
   color: var(--burgundy);
+}
+
+.activities-accordion__read-more {
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.activities-accordion__trigger[aria-expanded="true"] .activities-accordion__read-more {
+  display: none;
+}
+
+.activities-accordion__chevron {
   font-size: 1rem;
   transition: transform .35s ease;
   line-height: 1;
 }
 .activities-accordion__trigger[aria-expanded="true"] .activities-accordion__chevron {
   transform: rotate(180deg);
+}
+
+/* Hide card images when accordion is closed */
+.activities-accordion__panel:not(.is-open) .card-image {
+  display: none;
 }
 
 .activities-accordion__panel {

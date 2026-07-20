@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&family=Parisienne&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <header class="site-header">
@@ -121,6 +121,7 @@
         <article><b>Spanish</b><span data-en="Main language" data-it="Lingua principale">Main language</span></article>
         <article><b>18–28°C</b><span data-en="Typical Medellín temperature" data-it="Temperature tipiche a Medellín">Typical Medellín temperature</span></article>
         <article><b>Type A / B</b><span data-en="Power sockets" data-it="Prese elettriche">Power sockets</span></article>
+        <article><b>MDE</b><span data-en="José María Córdova Airport" data-it="Aeroporto José María Córdova">José María Córdova Airport</span></article>
       </div>
       <div class="card-grid practical" style="margin-top:40px;">
         <article><span>✈</span><h3 data-en="Flights" data-it="Voli">Flights</h3><p data-en="Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE." data-it="Prova diverse combinazioni di date e confronta Google Flights, Skyscanner e Momondo. Il principale aeroporto internazionale di Medellín è José María Córdova, codice MDE.">Search several date combinations and compare Google Flights, Skyscanner and Momondo. Medellín's main international airport is José María Córdova, code MDE.</p></article>
@@ -189,7 +190,10 @@
             <strong data-en="Choose your own Colombian adventure" data-it="Scegli la tua avventura colombiana">Choose your own Colombian adventure</strong>
             <small data-en="Explore activities in Medellín and beyond" data-it="Scopri le attività da fare a Medellín e dintorni">Explore activities in Medellín and beyond</small>
           </span>
-          <span class="activities-accordion__chevron" aria-hidden="true">▼</span>
+          <span class="activities-accordion__toggle">
+            <span class="activities-accordion__read-more" data-en="Read more" data-it="Scopri di più">Read more</span>
+            <span class="activities-accordion__chevron" aria-hidden="true">▼</span>
+          </span>
         </button>
         <div class="activities-accordion__panel" id="activities-panel" role="region" aria-labelledby="activities-accordion">
           <div class="card-grid activities">
