@@ -55,7 +55,7 @@ button, a { font: inherit; }
 .countdown div { min-width:70px; }
 .countdown strong { display:block; font-family:"Libre Baskerville",serif; font-size:clamp(1.7rem,4vw,3rem); color:var(--burgundy); }
 .countdown span { display:block; text-transform:uppercase; letter-spacing:.14em; font-size:.65rem; }
-.section { max-width:1180px; margin:auto; padding:clamp(72px,9vw,120px) clamp(20px,5vw,68px); }
+.section { max-width:1180px; margin:auto; padding:clamp(48px,6vw,80px) clamp(20px,5vw,68px); }
 .section.tinted { max-width:none; background:var(--cream); }
 .section.tinted > * { max-width:1060px; margin-left:auto; margin-right:auto; }
 .section-kicker { color:var(--burgundy); margin-bottom:8px; }
@@ -158,8 +158,8 @@ footer p { opacity:.75; font-size:.85rem; }
 }
 .quick-nav-grid a {
   position: relative;
-  min-height:145px;
-  padding:24px 20px 44px;
+  min-height: 110px;
+  padding: 20px 20px 40px;
   background:white;
   border:1px solid var(--line);
   border-radius:12px;
@@ -181,7 +181,7 @@ footer p { opacity:.75; font-size:.85rem; }
   position: absolute;
   right: 20px;
   bottom: 18px;
-  width: 28px;
+  width: 18px;
   height: 2px;
   background: var(--burgundy);
   transition: width .2s ease;
@@ -199,7 +199,7 @@ footer p { opacity:.75; font-size:.85rem; }
   transition: right .2s ease;
 }
 .quick-nav-grid a:hover::after {
-  width: 34px;
+  width: 24px;
 }
 .quick-nav-grid a:hover::before {
   right: 18px;
@@ -564,8 +564,8 @@ footer p { opacity:.75; font-size:.85rem; }
   transform: rotate(180deg);
 }
 
-/* Hide card images when accordion is closed */
-.activities-accordion__panel:not(.is-open) .card-image {
+/* Hide activity cards entirely when accordion is closed */
+.activities-accordion__panel:not(.is-open) .activities article {
   display: none;
 }
 
